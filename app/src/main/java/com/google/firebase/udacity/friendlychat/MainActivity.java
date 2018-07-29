@@ -254,7 +254,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_SIGN_IN){
             if (resultCode == RESULT_OK){
-                Toast.makeText(MainActivity.this, "Signed In!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Signed. In!", Toast.LENGTH_SHORT).show();
             }else if(requestCode == RESULT_CANCELED){
                 Toast.makeText(MainActivity.this, "Sign in Canceled!", Toast.LENGTH_SHORT).show();
                 finish();
